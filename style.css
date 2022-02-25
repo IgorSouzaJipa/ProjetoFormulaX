@@ -6,27 +6,24 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
+
+
 html{
     overflow-x: hidden;
+    
 }
 body{
     
     background: #0C0C0C;
-    /* background-image: url(./img/BgColor.svg);
-    background-repeat: no-repeat; */
 
 }
-.kezia{
-    display: flex;
-    position: relative;
-    width: 90%;
-    flex-wrap:wrap;
-    top: 20%;
-}
+
 
 .main{
-    gap: 112px;
+
+    gap: 10px;
     flex-wrap: wrap;
     position: relative;
     display: flex;
@@ -43,7 +40,14 @@ body{
 
 
 }
+.kezia{
+   
+    max-width: 70%;
+    flex-wrap:wrap;
+    top: 20%;
+}
 .rigth{
+    
     margin-top: -10%;
     margin-bottom: 10%;
     display: flex;
@@ -51,7 +55,7 @@ body{
     flex-wrap: wrap;
     width: 512px;
    height: 126px;
-    left: 10%;
+  
     
     
 }
@@ -67,23 +71,18 @@ color: #FFFFFF;
 }
 
 .text{
-    font-family: Raleway;
+font-family: Raleway;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 200%;
-/* or 24px */
-
 text-align: justify;
-
-/* gray / gray-7 */
-
 color: #A3A3A3;
-padding-bottom: 10px;
-border-bottom: 0.4px solid #FFF2E7;
+
+
+
 }
 .mid{
-
 position: relative;
 display: flex;
 margin-top: 5%;
@@ -127,14 +126,14 @@ text-align: center;
 }
 
 .desemp .video iframe{
-    width:60%;
+    width:70%;
     height:573px; 
 }
 
 .video{
     position: relative;
     display: flex;
-   
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
  
@@ -185,7 +184,6 @@ padding: 18px;
 }
 
 .line{
-  
     margin: 0 auto;
     margin-bottom: 200px;
     margin-top: 147px;
@@ -196,5 +194,246 @@ padding: 18px;
     border-radius: 8px;
 
 }
+.linetop{
+  
+
+    margin-bottom: 200px;
+    margin-top: 10%;
+    width:352px ;
+    height: 2px ;
+    background: #EDEFF0;
+    box-shadow: 0px 0px 177px 4px rgba(216, 182, 109, 0.35), 0px 0px 96px 18px rgba(216, 182, 109, 0.25), 0px 0px 14px 1px rgba(216, 182, 109, 0.4), 0px 0px 4px 1px rgba(216, 182, 109, 0.5);
+    border-radius: 8px;
+}
+
+.contato{
+left:10% ;
+position: relative;
+display: flex;
+text-align: center;
+align-items: center;
+align-content:center;
+}
+
+.contato p {
+
+font-family: Raleway;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 42px;
+text-align: center;
+color: #FFFFFF;
+}
+.flecha{
+    position: relative;
+    display: flex;
+
+    display: flex;
+}
+.foter{
+
+    border-top: 0.4px solid #FFF2E7 ;
+   margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+ 
+
+}
 
 
+.corp{
+    display: flex;
+    position: inline;
+    flex-direction: row ;
+    align-items: center;
+}
+.corp p{
+font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: right;
+color: #8F8F8F;
+}
+
+@media screen and ( min-width:320px ) {
+
+    
+
+
+    /* .main{
+        flex-wrap: wrap;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      
+    
+    }
+
+    .left{
+   
+     
+    }
+    .kezia{
+       
+        max-width: 70%;
+        flex-wrap:wrap;
+        top: 20%;
+    }
+    .rigth{
+        
+        margin-top: -10%;
+        margin-bottom: 10%;
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        width: 512px;
+       height: 126px;
+      
+        
+        
+    }
+    h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 100%;
+    color: #FFFFFF;
+    }
+    
+    .text{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 200%;
+    text-align: justify;
+    color: #A3A3A3;
+    
+    
+    
+    }
+    .mid{
+    position: relative;
+    display: flex;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+    
+    }
+    
+    .news{
+       
+        width: 220px;
+        height: 50px;
+    }
+    .h2-mani{
+    font-family: Raleway;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    
+    letter-spacing: 0em;
+    text-align: center;
+    
+    }
+    .p-man{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        /* or 24px */
+        
+        text-align: center;
+        
+        color: #8F8F8F;
+        margin-bottom: 20px;
+        
+    }
+
+ */
+
+
+
+
+
+
+
+    .desemp .video iframe{
+        width:70%;
+        height:350px; 
+        
+    }
+
+    .icones{
+        gap: 50px 120px;
+        margin: 62px 0px 124px;
+    }
+    .line{
+        position: relative;
+        width: 55%;
+        height: 2px;
+        margin: 0 auto;
+        margin-bottom: 10%;
+        margin-top: 5%;
+        left: 7%;
+    }
+
+    .contato{
+        top: -50%;
+        margin: 20px;
+        flex-direction: column;
+        left: 5%;
+
+    }
+    .flecha{
+        margin-top: 10%;
+        left: -20%;
+        padding: 20px;
+    }
+
+    .foter{
+        flex-direction: column;
+
+        
+    }
+    .logof {
+        display: flex;
+        position: relative;
+        margin: 50px;
+        left: %;
+        justify-content: center;
+    }
+    .corp p {
+        position: relative;
+       text-align: center;
+       left: %;
+    }
+
+    .modelo{
+        position: relative;
+        display: flex;
+       align-content:center;
+        gap: 70px;
+       margin-bottom: 100px;
+    }
+    
+  
+}
