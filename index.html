@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=,, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="./img/icon2.svg" type="image/svg">
+    <title>Kezia e Formula X</title>
 </head>
 
 <body>
-
-    <!-- <img class="bg-color" src="./img/BgColor.svg" alt=""> -->
     <div class="bg-color" ></div>
+    <div class="main"  >
 
 
-    
-    <div class="main">
-        <section class="left" >
+        <section data-aos="fade-right" class="left" >
             <img class="kezia" src="./img/ImageKezia.png" alt="">
                         <!-- <div class="img-2" >
                             <img class="fundo" src="./img/img-frente.png" alt="">
                         </div> -->
          </section>
 
-         <section class="rigth" >
+         <section  data-aos="fade-left" class="rigth" >
                <img class="titlle" src="./img/logo.svg" alt="">
                 <h2 class="sub"> Sempre Inovando para Auxiliar a Melhoria da sua Qualidade de Vida. </h2>
             <p class="text"> 
@@ -35,7 +34,7 @@
 
     </div>
 
-    <div class="mid" >
+    <div data-aos="fade-up" class="mid" >
         <img  class=" news" src="./img/news.png" alt="">
       
            <h2 class="h2-mani" > Manipulados únicos feitos <br> especialmente para você</h2>
@@ -52,33 +51,51 @@
     </div>
 </div>
 
-<div class="icones">
-    <div class="icone-pai">
-        <div class="icone" >
+<div  class="icones">
+    <div  class="icone-pai">
+        <div  data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500"  class="icone" >
             <img src="./img/medalhao.svg" alt="">
         </div>
         <p>Desempenho <br/>Fisico </p>
     </div>
 
-    <div class="icone-pai">
+    <div data-aos="fade-left"
+    data-aos-anchor="#example-anchor"
+    data-aos-offset="500"
+    data-aos-duration="500"  class="icone-pai">
         <div class="icone" >
             <img src="./img/medalhao.svg" alt="">
         </div>
         <p>Beleza</p>
     </div>
-    <div class="icone-pai">
-        <div class="icone" >
+    <div data-aos="fade-left"
+    data-aos-anchor="#example-anchor"
+    data-aos-offset="500"
+    data-aos-duration="500"  class="icone-pai">
+        <div data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500"  class="icone" >
             <img src="./img/medalhao.svg" alt="">
         </div>
         <p>Kit Dorcas </p>
     </div>
-    <div class="icone-pai">
+    <div data-aos="fade-left"
+    data-aos-anchor="#example-anchor"
+    data-aos-offset="500"
+    data-aos-duration="500"  class="icone-pai">
         <div class="icone" >
             <img src="./img/medalhao.svg" alt="">
         </div>
         <p>Emagreça</p>
     </div>
-    <div class="icone-pai">
+    <div data-aos="fade-left"
+    data-aos-anchor="#example-anchor"
+    data-aos-offset="500"
+    data-aos-duration="500" class="icone-pai">
         <div class="icone" >
             <img src="./img/medalhao.svg" alt="">
         </div>
@@ -88,18 +105,16 @@
 
 </div>
 
-<div class="modelo">
+<div  class="modelo">
     
-    <img src="./img/IMAGE 1.png" alt="">
-    <img src="./img/IMAGE 2.png" alt="">
-    <img src="./img/IMAGE 3.png" alt="">
+    <img  data-aos="flip-right" src="./img/IMAGE 1.png" alt="">
+    <img  data-aos="flip-right" src="./img/IMAGE 2.png" alt="">
+    <img  data-aos="flip-right" src="./img/IMAGE 3.png" alt="">
 
 </div>
 
 
 <div class="line" > </div>
-
-</body>
 
 
 <div class="contato" >
@@ -123,5 +138,13 @@
 
 </div>
 </footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"> </script>
+    <script>
+      AOS.init({
+          duration: 1200,
+      });
+    </script>
+
+    </body> 
 
 </html>
